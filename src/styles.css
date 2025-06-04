@@ -1,0 +1,60 @@
+* {
+  font-family: "Manrope";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+}
+#root {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: auto 20px;
+  border-radius: 8px;
+  background-color: hsl(217, 19%, 24%);
+}
+
+.heading {
+  color: hsl(150, 100%, 66%);
+  padding: 0;
+  margin: 10px;
+  font-weight: 800;
+}
+.advice {
+  color: white;
+}
+.next {
+  position: relative;
+  transform: translateY(70%);
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.icon {
+  height: 100%;
+  width: 50%;
+  object-fit: contain;
+}
+.divider {
+  height: 100%;
+  width: 100%;
+}
+.next:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
+#root:hover {
+  box-shadow: 0 0 20px;
+}
+
+.icon:hover {
+  transform: rotateY(360deg);
+  transition: 0.8s;
+}
